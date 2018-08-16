@@ -17,7 +17,7 @@ void	ft_putnbr(int nb)
 	}
 	if (nb_stock > 9)
 	{
-		ft_putnbt(nb_stock / 10);
+		ft_putnbr(nb_stock / 10);
 		ft_putchar(nb_stock % 10 + '0');
 	}
 	else
